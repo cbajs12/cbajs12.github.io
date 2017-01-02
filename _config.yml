@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: cbajs12
+google_analytics: 
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: cbajs12's notepad
+
+description: cbajs12's notepad
+author:
+  name: Jisung Jeon
+  email: 
+  github: cbajs12
+  twitter: 
+  pinterest: 
+  linkedin: jisungjeon
+  bio: Stronger than I was
+  email_md5: 
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
