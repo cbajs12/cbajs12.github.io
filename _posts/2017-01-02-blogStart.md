@@ -2,7 +2,7 @@
 layout: post
 title: '[Blog] 시작하기'
 categories: DailyLife
-tags: [jekyll, dbyll]
+tags: [jekyll, dbyll, korean]
 description: '블로그를 간단히 시작해보자'
 comments: true
 ---
